@@ -1,0 +1,37 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# =========================
+# ML / TensorFlow artifacts
+# =========================
+*.h5
+*.keras
+*.ckpt
+*.pb
+*.index
+*.data-*
+saved_model/
+checkpoints/
+
+# =========================
+# Pickle / training data
+# =========================
+*.pkl
+
+# =========================
+# NLTK downloaded data
+# =========================
+nltk_data/
+
+# =========================
+# Logs
+# =========================
+*.log
